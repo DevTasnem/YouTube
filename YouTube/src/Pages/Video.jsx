@@ -330,7 +330,7 @@ function Video() {
                     <div className='flex px-5 py-1 gap-3'>
 
                         <Link to={`/Video/${item.snippet.resourceId.videoId}`}>
-                        <div className='w-52 h-32 bg-cover bg-no-repeat bg-center rounded-lg border'
+                        <div className='w-52 h-32 bg-cover bg-no-repeat bg-center rounded-lg'
                         style={{backgroundImage: `url(${
                             item.snippet.thumbnails.maxres
                             ? item.snippet.thumbnails.maxres.url
