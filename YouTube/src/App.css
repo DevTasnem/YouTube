@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.cdnfonts.com/css/anton'); */
+@import url('https://fonts.cdnfonts.com/css/impact');
+
+
+.hide-icons {
+    display: none;
+  }
+
+body{
+    background-color: rgb(15,15,15);
+}
+  
